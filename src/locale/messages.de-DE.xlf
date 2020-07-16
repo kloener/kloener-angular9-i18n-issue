@@ -28,7 +28,25 @@
       </trans-unit>
       <trans-unit id="Resources:Text" datatype="html">
         <source>Here are some links to help you get started:</source>
-        <target>Hier ein paar <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> zur <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/> <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:</target>
+        <target>
+          Hier ein paar
+          1.
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+          2.
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+          3.
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Links<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+          zur
+          1.<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          2.<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          3. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Hilfe<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+          1. <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/>
+          2. <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/>
+          3.  <x id="START_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;sup&gt;"/>für dich<x id="CLOSE_SUPERSCRIPT" ctype="x-sup" equiv-text="&lt;/sup&gt;"/>
+          1. <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
+          2. <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
+          3.  <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>zum Starten<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>:
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">343</context>
