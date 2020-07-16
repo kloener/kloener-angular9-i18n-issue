@@ -6,7 +6,7 @@ This is a minimal sample project to emphasize and show the issue with i18n since
 
 
 * `npm install`
-* `npm build:localize`
+* `npm run build:localize`
 * browse to [http://localhost:4205/de-DE](http://localhost:4205/de-DE) -> invalid HTML tag order
 * browse to [http://localhost:4205/en-GB](http://localhost:4205/en-GB) -> just text changes added
 * browse to [http://localhost:4205/de](http://localhost:4205/de) -> source text
